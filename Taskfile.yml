@@ -24,7 +24,14 @@ tasks:
         -exclude ./mock
         ./...
 
-## INTERNAL COMMANDS
+  pre-commit:
+    desc: "Run all pre-commit checks"
+    cmds:
+      - task: format
+      - task: test
+      - task: lint
+
+## internal command
 
   go_files:
     desc: "Return all .go files and run .COMMAND on them"

@@ -16,11 +16,11 @@ var (
 
 // init Set the default logger value
 func init() {
-	SetLogger(New(defaultLevel.Level()))
+	SetLogger(New(defaultLevel))
 }
 
 // New create a new logger with specific log_leve & options
-func New(level zapcore.Level, options ...zap.Option) *zap.SugaredLogger {
+func New(level zapcore.LevelEnabler, options ...zap.Option) *zap.SugaredLogger {
 	return NewWithSink(level, os.Stdout, options...)
 }
 
