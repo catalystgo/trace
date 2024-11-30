@@ -4,13 +4,13 @@
 [![Go Reference](https://pkg.go.dev/badge/github.com/catalystgo/logger.svg)](https://pkg.go.dev/github.com/catalystgo/logger)
 ![GitHub](https://img.shields.io/github/license/catalystgo/logger)
 
-## `logger/log` 🎨
+## `logger/cli` 🎨
 
 A simple and colorful logging package for Go.
 
 It provides different log levels, colors, and prefixes for each log level. a good fit for **CLI applications**.
 
-[logger/log documentation](./log/README.md)
+[logger/cli documentation](./cli/README.md)
 
 ## `logger/logger` 📜
 
