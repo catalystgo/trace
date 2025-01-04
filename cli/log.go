@@ -91,8 +91,8 @@ func Fatalf(msg string, args ...interface{}) {
 	}
 }
 
-/// Panic functions can't be disabled by setting the log level to a higher value
-/// since they are meant to be used in critical situations where the application can't continue
+// Panic functions can't be disabled by setting the log level to a higher value
+// since they are meant to be used in critical situations where the application can't continue
 
 func Panic(msg string) {
 	log.Panicln(prefixPanic + msg)

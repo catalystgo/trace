@@ -20,7 +20,12 @@ It supports various log levels, json output, context awareness, and traceability
 
 [logger/logger documentation](./logger/README.md)
 
-## Milestone 💎
+## Contributing 🤝
 
-- [ ] Add wakatime badge
-- [ ] Write tests
+Contributions are welcome! Please feel free to submit a pull request or open an issue.
+
+![Alt](https://repobeats.axiom.co/api/embed/09b69c9af46d1b573cb89b9195486cac442d6350.svg "Repobeats analytics image")
+
+## License 📑
+
+This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for details.

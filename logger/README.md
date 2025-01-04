@@ -88,11 +88,3 @@ You can get and set the global logger using the `Logger` and `SetLogger` functio
 globalLogger := logger.Logger()
 logger.SetLogger(globalLogger)
 ```
-
-## License 📑
-
-This project is licensed under the MIT License. See the [LICENSE](./../LICENSE) file for details.
-
-## Contributing 🤝
-
-Contributions are welcome! Please feel free to submit a pull request or open an issue.
